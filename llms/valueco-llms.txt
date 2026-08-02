@@ -1,0 +1,27 @@
+# ValueCo
+
+> ValueCo (ValueCo Metrics SAS) is a Paris-based fintech that builds an objective ESG market view from the proprietary ESG scores of asset managers and institutional investors, so listed and non-listed companies can understand how investors actually perceive their ESG performance and improve their strategies. Techstars portfolio company. The platform is a web application for investors, contributors, and enterprises; ValueCo publishes no public developer portal, API documentation, or client SDKs as of 2026-07-21.
+
+ValueCo aggregates investor-side proprietary ESG scoring into a consensus market
+view ("vue de marché ESG objective"). Audiences served by the platform: asset
+managers, institutional investors, listed and non-listed enterprises, and ESG
+contributors. The company is based at 112 Avenue Emile Zola, 75015 Paris, France.
+
+## Website
+
+- [ValueCo website](https://www.valuecometrics.com/): Company site (French; SPA)
+- [Who we are](https://www.valuecometrics.com/who-we-are): Team and mission
+- [Research](https://www.valuecometrics.com/research): ESG research
+- [News](https://www.valuecometrics.com/news): Company news
+- [Careers](https://www.valuecometrics.com/careers): Open roles
+- [Contact](https://www.valuecometrics.com/contact): Contact form (contact@valueco.io, team@valuecometrics.com)
+- [LinkedIn](https://www.linkedin.com/company/valuecometrics): Company profile
+
+## API Evangelist profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/valueco/refs/heads/main/apis.yml): Machine-readable profile of this provider
+- No public API, OpenAPI, or developer program was found for ValueCo; this
+  profile tracks the company as an ESG-data provider lead in the API
+  Evangelist network.
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + https://www.valuecometrics.com/ (SPA bundle) -->

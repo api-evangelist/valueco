@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the ValueCo
+  website hosts. valuecometrics.com 302-redirects to www.valuecometrics.com
+  (a Lovable-built SPA whose canonical link points at https://valueco.io,
+  which does not resolve in DNS as of the probe date). Status is the HTTP
+  code observed at fetch time. No document returned a real payload, so no
+  raw files were saved and no WellKnown pointer is wired in apis.yml.
+hosts:
+  - host: https://www.valuecometrics.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404
+      - path: /robots.txt
+        status: 200
+        type: text/plain
+        note: Allow-all robots.txt (Googlebot/Bingbot/Twitterbot/facebookexternalhit/*); not a discovery document, not saved.
+      - path: /sitemap.xml
+        status: 404
+  - host: https://valueco.io
+    documents:
+      - path: /
+        status: null
+        note: DNS does not resolve (NXDOMAIN at probe time) despite being the canonical URL on www.valuecometrics.com.

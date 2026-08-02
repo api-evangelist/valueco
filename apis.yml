@@ -1,7 +1,24 @@
 aid: valueco
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valueco.png
 name: ValueCo
-description: ValueCo is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ValueCo (ValueCo Metrics SAS) is a Paris-based fintech building an objective
+  ESG market view from the proprietary ESG scores of asset managers and institutional
+  investors. Its platform aggregates investor-side scoring into a consensus view so
+  listed and non-listed companies can understand how the market actually perceives
+  their ESG performance and improve their strategies. A Techstars portfolio company,
+  ValueCo serves asset managers, institutional investors, enterprises, and ESG contributors;
+  it currently publishes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/valueco/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,10 +27,21 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- ESG
+- Sustainability
+- Finance
+- Investing
+- FinTech
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/valueco-domain-security.yml
 - type: Website
   url: https://valuecometrics.com/
+- type: Contact
+  url: https://www.valuecometrics.com/contact
+- type: Careers
+  url: https://www.valuecometrics.com/careers
+- type: News
+  url: https://www.valuecometrics.com/news
+- type: LinkedIn
+  url: https://www.linkedin.com/company/valuecometrics
+- type: LLMsTxt
+  url: llms/valueco-llms.txt
