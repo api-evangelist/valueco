@@ -31,6 +31,9 @@ description: ValueCo (ValueCo Metrics SAS) is a Paris-based fintech building an 
   ValueCo serves asset managers, institutional investors, enterprises, and ESG contributors;
   it currently publishes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/valueco/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "A Techstars portfolio company, ValueCo serves asset managers, institutional investors, enterprises, and ESG contributors; it currently publishes no public API or developer program."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
